@@ -28,7 +28,7 @@ We'll accept _any_ of the following types of solution:
 
 * A script using a CLI, SDK, API or library that deploys the stack on a host running a modern Linux distribution _or_ on the GCP cloud.
 
-* A Docker Compose file _or_ another similar container orchestration solution that deploys the stack on a host running a modern Linux distribution _or_ on the AWS cloud.
+* A Docker Compose file _or_ another similar container orchestration solution that deploys the stack on a host running a modern Linux distribution _or_ on the GCP cloud.
 
 * A recipe using one or more configuration management tools (e.g. Terraform, Ansible, Chef, Puppet, CloudFormation, Vagrant, Packer, etc.) that deploys the stack on a host running a modern Linux distribution _or_ on the GCP cloud. Plus for GKE.
 
@@ -42,7 +42,7 @@ When assessing this exercise, we will take the following points into considerati
 * How _easy_ it is to deploy the solution
 * How _resilient_ it is (e.g. if the database takes a few more seconds to start than usual, does the system stop working and never recovers? What happens if the application are stress tested? Do the solution works on preemptible VMs?)
 
-Suppose that a _junior_ developer (who has access to most common Linux distributions and an AWS account) will try to run your solution. Would they be able to install all requirements and run it easily? Would they be able to verify that it works? Should any problems arise (e.g. a package is missing), would they be able to identify and fix it?
+Suppose that a _junior_ developer (who has access to most common Linux distributions and an GCP account) will try to run your solution. Would they be able to install all requirements and run it easily? Would they be able to verify that it works? Should any problems arise (e.g. a package is missing), would they be able to identify and fix it?
 
 We don't expect a production-grade solution, but we expect you to show that you'd be able to deploy a production-grade distributed system given enough tools and time.
 
