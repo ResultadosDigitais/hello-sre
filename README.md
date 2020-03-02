@@ -40,7 +40,7 @@ When assessing this exercise, we will take the following points into considerati
 
 * Whether the solution works or not
 * How _easy_ it is to deploy the solution
-* How _resilient_ it is (e.g. if the database takes a few more seconds to start than usual, does the system stop working and never recovers?)
+* How _resilient_ it is (e.g. if the database takes a few more seconds to start than usual, does the system stop working and never recovers? What happens if the application are stress tested? Do the solution works on preemptible VMs?)
 
 Suppose that a _junior_ developer (who has access to most common Linux distributions and an AWS account) will try to run your solution. Would they be able to install all requirements and run it easily? Would they be able to verify that it works? Should any problems arise (e.g. a package is missing), would they be able to identify and fix it?
 
